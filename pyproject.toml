@@ -12,4 +12,5 @@ dependencies = [
     "qtpy",
     "pyyaml",
     "platformdirs",
+    "napari[all]",
 ]
