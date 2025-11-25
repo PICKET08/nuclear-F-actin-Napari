@@ -16,10 +16,10 @@ Nuclear F-actin is an Napari plugin that implements a deep learning–based work
      ```
      ii.via GitHub
      ```bash
-     pip install git+
+     pip install git+https://github.com/PICKET08/nuclear-F-actin-Napari.git
      ```
      iii.via ZIP file
      ```bash
-     cd
+     cd path/to/nuclear-F-actin-Napari
      python -m pip install -e.
      ```
