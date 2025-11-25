@@ -10,26 +10,25 @@ Nuclear F-actin is an Napari plugin that implements a deep learning–based work
       ```
 2. Install `nuclear F-actin`.
    
-     i. via [PyPI](https://pypi.org/)
+     i. via [PyPI](https://pypi.org/).
      ```bash
      pip install nuclear_F_actin
      ```
-     ii. via GitHub
+     ii. via GitHub.
      ```bash
      pip install git+https://github.com/PICKET08/nuclear-F-actin-Napari.git
      ```
-     iii. via ZIP file
+     iii. via ZIP file.
      ```bash
      cd path/to/nuclear-F-actin-Napari
      python -m pip install -e.
      ```
 # Usage
 1. Download the [model package file](), unzip and place the model package into the work directory.
-2. Launch the plugin via Command Line
+2. Launch the plugin via Command Line.
       ```bash
       conda activate nFA-napari
       napari
       ```
-
 # Video tutorials
 
