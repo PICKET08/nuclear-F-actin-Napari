@@ -23,8 +23,15 @@ Nuclear F-actin is an Napari plugin that implements a deep learning–based work
      cd path/to/nuclear-F-actin-Napari
      python -m pip install -e.
      ```
----
+# Usage
+Launch via Command Line
+     ```bash
+     conda activate nFA-napari
+     napari
+     ```
+# Video tutorials
 
+---
 ### Notes
 1. **GPU Users:** If you want to use GPU, please make sure to install `torch` and `torchvision` versions that match your CUDA version.  
    Example for CUDA 12.1:
