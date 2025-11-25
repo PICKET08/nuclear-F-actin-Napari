@@ -10,16 +10,16 @@ conda install pip
 ```
 2. Install `nuclear F-actin`.
    
-  i.via [PyPI]
-  ```bash
-  pip install nuclear_F_actin
-  ```
-  ii.via GitHub
-  ```bash
-  pip install git+
-  ```
-  iii.via ZIP file
-  ```bash
-  cd
-  python -m pip install -e.
-  ```
+     i.via [PyPI]
+     ```bash
+     pip install nuclear_F_actin
+     ```
+     ii.via GitHub
+     ```bash
+     pip install git+
+     ```
+     iii.via ZIP file
+     ```bash
+     cd
+     python -m pip install -e.
+     ```
