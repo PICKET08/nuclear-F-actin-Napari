@@ -25,7 +25,7 @@ Nuclear F-actin is an Napari plugin that implements a deep learning–based work
      ```
 # Usage
 Launch via Command Line
-```bash
+      ```bash
       conda activate nFA-napari
       napari
 ```
