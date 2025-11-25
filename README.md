@@ -37,8 +37,8 @@ Nuclear F-actin is an Napari plugin that implements a deep learning–based work
 
 ### Notes
 
-1. **GPU Users:** If you want to use GPU, please make sure to install `torch` and `torchvision` versions that match your CUDA version.  
-   Example for CUDA 12.1:
+1. If you want to use GPU, please make sure to install `torch` and `torchvision` versions that match your CUDA version.  
+   Example for CUDA 12.6:
    ```bash
-   pip install torch==2.2.0+cu121 torchvision==0.17.1+cu121
+   pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu126
    
