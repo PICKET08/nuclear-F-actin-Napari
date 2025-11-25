@@ -1,7 +1,7 @@
 # nuclear F-actin
 Nuclear F-actin is an Napari plugin that implements a deep learning–based workflow for the quantitative analysis of nuclear F-actin in cells. The plugin follows a pipeline of cell detection and segmentation of specific intracellular components, designed to enable quantitative analysis of target features. Users can retrain the model using their own datasets.
 
-# Installation
+## Installation
 1. Set up the environment via command line.
       ```bash
       conda create -n nFA-napari python==3.9
@@ -23,12 +23,12 @@ Nuclear F-actin is an Napari plugin that implements a deep learning–based work
      cd path/to/nuclear-F-actin-Napari
      python -m pip install -e.
      ```
-# Usage
+## Usage
 1. Download the [model package file](), unzip and place the model package into the work directory.
 2. Launch the plugin via Command Line.
       ```bash
       conda activate nFA-napari
       napari
       ```
-# Video tutorials
+## Video tutorials
 
