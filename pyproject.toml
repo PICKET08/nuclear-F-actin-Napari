@@ -1,0 +1,48 @@
+[project]
+name = "nuclear_F_actin"
+dynamic = ["version"]
+description = "Napari plugin for F-actin image processing"
+readme = "README.md"
+license = {file = "LICENSE"}
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+requires-python = ">=3.9"
+
+dependencies = [
+    "Pillow",
+    "numpy",
+    "qtpy",
+    "pyyaml",
+    "platformdirs",
+    "napari[all]",
+    "onnxruntime",
+    "onnxslim",
+    "onnx<1.18.0",
+    "opencv-python",
+    "light-the-torch"
+]
+
+[project.optional-dependencies]
+dev = ["pyqt5"]
+
+[project.entry-points."napari.manifest"]
+nuclear_F_actin = "nuclear_F_actin:napari.yaml"
+
+[build-system]
+requires = ["setuptools>=42.0.0", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
