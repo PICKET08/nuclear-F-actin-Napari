@@ -9,6 +9,7 @@ conda activate nFA-napari
 conda install pip
 ```
 2. Install `nuclear F-actin`.
+   
   i.via [PyPI]
   ```bash
   pip install nuclear_F_actin
