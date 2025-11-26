@@ -20,8 +20,8 @@ from napari.layers import Image
 from .detect_inference import DetectONNX
 from .segment_inference import SegmentONNX
 
-from nuclear_F_actin.segTrainer.segTrainer import segtrain
-from nuclear_F_actin.detTrainer.detTrainer import detTrain
+from nuclear_f_actin.segTrainer.segTrainer import segtrain
+from nuclear_f_actin.detTrainer.detTrainer import detTrain
 
 class WeightsWindow(QWidget):
     def __init__(self, viewer: napari.viewer.Viewer):
@@ -525,6 +525,7 @@ class TrainThread(QThread):
             except Exception as e:
                 self.log_fn(e, 'Error')
         self.finished.emit()
+
 
 
 
