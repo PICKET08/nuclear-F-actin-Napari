@@ -2,7 +2,6 @@ from PIL import Image, ImageDraw
 import onnxruntime as ort
 import numpy as np
 import random
-# from segment_inference import SegmentONNX
 
 class DetectONNX:
     def __init__(self, model_path):
@@ -152,6 +151,7 @@ class DetectONNX:
             crop = img[y:y + h, x:x + w].copy()
             crops.append(crop)
         return crops, resultBoxes
+
 
 
 
