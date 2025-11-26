@@ -1,0 +1,12 @@
+name: nuclear_f_actin
+display_name: napari
+contributions:
+  commands:
+    - id: nuclear_f_actin.open_weights_window
+      title: Open Weights Window
+      python_name: nuclear_f_actin.weights:WeightsWindow
+
+  widgets:
+    - command: nuclear_f_actin.open_weights_window
+      display_name: nuclear F-actin
+      autogenerate: false
